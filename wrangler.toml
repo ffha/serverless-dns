@@ -1,10 +1,10 @@
 name = "serverless-dns"
-main = "./dist/worker.js"
+main = "./src/server-workers.js"
 workers_dev = true
 # logpush job is setup to capture from envs ending: log, pro, or one
 logpush = false
 # use node_compat or custom build
-# node_compat = true
+node_compat = true
 compatibility_date = "2023-03-21"
 send_metrics = false
 minify = false
