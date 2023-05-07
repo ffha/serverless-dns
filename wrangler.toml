@@ -40,6 +40,10 @@ name = "basic-unbound"
 minify = true
 # vars are not inherited
 # workers/platform/environment-variables#environment-variables-via-wrangler
+analytics_engine_datasets = [
+   { binding = "METRICS", dataset = "SDNS_M0" },
+   { binding = "BL_METRICS", dataset = "SDNS_BL0" }
+]
 [env.prod.vars]
 LOG_LEVEL = "info"
 WORKER_ENV = "production"
