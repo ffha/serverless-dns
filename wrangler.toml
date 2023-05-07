@@ -1,5 +1,5 @@
 name = "serverless-dns"
-main = "./src/server-workers.js"
+main = "./dist/worker.js"
 workers_dev = true
 # logpush job is setup to capture from envs ending: log, pro, or one
 logpush = false
